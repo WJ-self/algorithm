@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+int n;
+const int N = 20;
+bool st[N];
+int path[N];
+
+void dfs() {
+    
+}
+
+int main() {
+    cin >> n;
+    dfs();
+    return 0;
+}

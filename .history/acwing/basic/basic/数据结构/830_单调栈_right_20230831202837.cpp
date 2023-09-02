@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+stack<int> st;
+const int N = 1e5;
+int a[N];
+
+int main(){
+    int M,x;
+    cin >> M;
+    for (int i=1; i<M; i++){
+        cin >> x;
+        while(!st.empty() && st.top() >= )
+    }
+}
