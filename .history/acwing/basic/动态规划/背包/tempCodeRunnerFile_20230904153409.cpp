@@ -1,0 +1,26 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+const int M = 1e5+10;
+const int MAXV = 2020;
+int N,V,v[M],w[M];
+int dp[1010][2020]; // 背包容量为i时的最大价值
+
+int main() {
+    cin >> N >> V;
+    int cnt = 1;
+    int a,b,s;
+    for (int i=1; i<=N; i++) {
+        cin >> a >> b >> s;
+        while(s){
+            if(s&1 == 1) v[cnt] = a, w[cnt++] = b;
+            a *= 2, b *= 2;
+            s >>= 1;
+        }
+    }
+    cnt --;
+    // printf("cnt = %d\n", cnt);
+    for (int i=1; i<)
+    cout << dp[V];
+    return 0;
+}
