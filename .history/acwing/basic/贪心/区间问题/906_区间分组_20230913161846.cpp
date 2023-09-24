@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+const int N = 1e5+10;
+typedef pair<int,int> PII;
+priority_queue<int, greater<int>> pq;
+PII p[N];
+int n,a,b;
+
+int main() {
+    cin >> n;
+    for(int i=0; i<n; i++) {
+        cin >> a >> b;
+        p[i] = {a,b};
+    }
+    sort(p,p+n); //按左端点排序
+
+}
